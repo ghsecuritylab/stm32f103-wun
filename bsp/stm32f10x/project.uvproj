@@ -10,7 +10,6 @@
       <TargetName>rt-thread</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060422::V5.06 update 4 (build 422)::ARMCC</pCCUsed>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32F103RB</Device>
@@ -494,9 +493,34 @@
           <GroupName>Applications</GroupName>
           <Files>
             <File>
+              <FileName>coap.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>applications\coap.c</FilePath>
+            </File>
+            <File>
+              <FileName>control.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>applications\control.c</FilePath>
+            </File>
+            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>applications\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>rs485.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>applications\rs485.c</FilePath>
+            </File>
+            <File>
+              <FileName>softtimer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>applications\softtimer.c</FilePath>
+            </File>
+            <File>
+              <FileName>utities.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>applications\utities.c</FilePath>
             </File>
           </Files>
         </Group>
